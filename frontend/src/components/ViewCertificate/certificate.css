@@ -1,0 +1,106 @@
+.certificate-container {
+    text-align: center;
+    font-family: "Georgia", serif;
+    margin: 30px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.certificate {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.certificate-border {
+    padding: 30px;
+    border: 10px solid gold;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.certificate-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #2e2e2e;
+}
+
+.certificate-name {
+    font-size: 26px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.certificate-text {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.certificate-course {
+    font-size: 22px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.certificate-date {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.certificate-status {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d9534f;
+    margin-top: 10px;
+}
+
+.certificate-hash {
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.download-btn {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background: #218838;
+}

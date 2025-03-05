@@ -115,8 +115,8 @@ const removeArt=async(req,res)=>{
 const getArtworkById = async (req, res) => {
     try {
         const { id } = req.params;
-        const artwork = await artModel.findById(req.body.id);
-
+        const artwork=await artModel.find({ _id: id});
+        
         if (!artwork) {
             return res.status(404).json({ message: "Artwork not found" });
         }

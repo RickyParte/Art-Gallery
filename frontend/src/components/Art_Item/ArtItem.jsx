@@ -13,7 +13,7 @@ const ArtItem = ({ id, name, price, features, image }) => {
                 <div className='Art-item-img-container'>
                     <img className='Art-item-image' src={url + "/images/" + image} alt="" />
                 </div>
-            </Link>
+            
             <div className='Art-item-info'>
                 <div className='Art-item-name-rating'>
                     <p>{name}</p>
@@ -30,6 +30,7 @@ const ArtItem = ({ id, name, price, features, image }) => {
                     </div>
                 }
             </div>
+            </Link>
         </div>
     );
 }

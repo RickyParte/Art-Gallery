@@ -6,11 +6,13 @@ import Cart from './pages/Cart/Cart'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import Footer from './components/Footer/Footer'
 import Product from './components/ProductPage/ProductPage'
-
+import ViewCertificate from './components/ViewCertificate/certificate'
 import LoginPopup from './components/LoginPopup/LoginPopup'
 import Verify from './pages/Verify/Verify'
 import MyOrders from './pages/MyOrders/MyOrders'
 import Artwork from './pages/artwork/artwork'
+
+
 
 const App = () => {
   const[showLogin,setShowLogin]=useState(false)
@@ -28,6 +30,7 @@ const App = () => {
       <Route path='/myorders' element={<MyOrders/>}/>
       <Route path='/artwork' element={<Artwork/>}/>
       <Route path="/product/:id" element={<Product />} />
+      <Route path="/view/:hashid" element={<ViewCertificate />} />
 
 
 
