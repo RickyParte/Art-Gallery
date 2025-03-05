@@ -43,17 +43,7 @@ app.use("/api/artist",profilerouter);
 app.use("/api/owner",OwnerRouter);
 app.use("/api/ownerorder",ownerOrder);
 app.use("/api/ownerartist",ownerArtist);
-
-
-
-
-
-
-
-
-
-
-
+app.use("/api/product",ArtRouter);
 
 app.get("/",(req,res)=>{
     res.send("API working")

@@ -39,7 +39,6 @@ const Profile = () => {
         const fetchArtist = async () => {
           try {
             const { data } = await axios.get(`http://localhost:4000/api/artist/info/${artistId}`);
-            console.log(data);
             
             setFormData({
                 ...data,

@@ -1,0 +1,98 @@
+/* certificate.css */
+
+.certificate-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif; /* Choose a suitable font */
+    background-color: #f8f8f8; /* Light background color */
+    min-height: 100vh; /* Ensure full viewport height */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333; 
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .certificate {
+    border: 5px solid #ffd700; /* Golden border */
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #fff; /* White certificate background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Set a maximum width */
+  }
+  
+  .certificate h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em; /* Larger heading */
+  }
+  
+  .certificate p {
+    margin-bottom: 10px;
+    color: #555; /* Slightly darker text */
+  }
+  
+  .certificate img {
+    display: block; /* Make image a block element */
+    margin: 20px auto; /* Center the image */
+    max-width: 100%; /* Ensure image fits within certificate */
+    height: auto;
+    border: 2px solid #ddd; /* Light border for image */
+    border-radius: 5px;
+  }
+  
+  .certificate p strong { /* Style for labels (e.g., "Artist Name:") */
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .certificate .hash { /* Style for certificate hash */
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 10px;
+  }
+  
+  /* Responsive adjustments (optional) */
+  @media (max-width: 600px) {
+    .certificate {
+      width: 95%; /* Make certificate wider on smaller screens */
+      padding: 20px;
+    }
+    input[type="text"] {
+      width: 90%;
+      margin-right:0;
+      margin-bottom:10px;
+    }
+  }

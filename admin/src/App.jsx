@@ -21,6 +21,9 @@ import LandingPage from './pages/Landing/Landing.jsx';
 import ForgotPassword from './pages/ForgotPassword/ForgotPassword.jsx'
 import ResetPassword from './pages/Reset/ResetPassword.jsx'
 
+import ViewCertificate from "./components/ViewCertificate";
+
+
 
 const stripePromise = loadStripe('pk_test_51O1TiuSIYdbve5xsa4Ek3ogB72c0PsuNcqsURbFXWsUPHkT0vMQZUmk8gmIvrKrBxNklToAqAQnFR3cfy0Livee700SWLFqomF'); // Replace with your actual publishable key
 
@@ -30,7 +33,10 @@ const App = () => {
   return (
     <div>
       <ToastContainer />
+
       <Routes>
+      <Route path="/view" element={< ViewCertificate/>} />
+
       <Route path="/" element={<LandingPage />} />
       <Route path="/forgot" element={<ForgotPassword />} />
       <Route path="/reset-password" element={<ResetPassword/>} />

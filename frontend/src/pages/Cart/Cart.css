@@ -5,8 +5,8 @@
     display:grid;
     grid-template-columns:1fr 1.5fr 1fr 1fr 1fr 0.5fr;
     align-items: center;
-    color:gray;
-    font-size: max(1vw,12px);
+    color:black;
+    font-size: 25px;
 }
 .cart-items-item{
     margin: 10px 0px;
@@ -44,7 +44,7 @@
 {
     display: flex;
     justify-content:space-between;
-    color:#555;
+    color:black;
 
 }
 .cart-total hr{
